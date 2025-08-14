@@ -4,17 +4,17 @@ Welcome to the Cinema Booking Web Application repository! This web application w
 
 ## FEATURES ✨
 
-- **Movie Search:** 🔍 Users can search for movies and view detailed information.
-- **Showtime Selection:** 🎬 Users can choose showtimes and book tickets online.
-- **Secure Payment:** 💳 Integrated payment system for secure transactions.
-- **Admin Panel:** 🎟️ Cinema management can manage movies through the backend system.
+- **Movie Search** 🔍 Users can search for movies and view detailed information.
+- **Showtime Selection** 🎬 Users can choose showtimes and book tickets online.
+- **Secure Payment** 💳 Integrated payment system for secure transactions.
+- **Admin Panel** 🎟️ Cinema management can manage movies through the backend system.
 
 ## TECHNOLOGIES 🚀
 
-- **ASP.NET Core:** 🌐 High-performance, cross-platform framework for building web applications.
-- **SQL Server:** 🗄️ Relational database management system for storing application data.
-- **HTML/CSS/JavaScript:** 🖥️ Frontend technologies for building the user interface.
-- **Bootstrap:** 📱 Frontend framework for designing responsive and mobile-first websites.
+- **ASP.NET Core** 🌐 High-performance, cross-platform framework for building web applications.
+- **SQL Server** 🗄️ Relational database management system for storing application data.
+- **HTML/CSS/JavaScript** 🖥️ Frontend technologies for building the user interface.
+- **Bootstrap** 📱 Frontend framework for designing responsive and mobile-first websites.
 
 ## DEMO 🎬
 
