@@ -7,7 +7,7 @@ Welcome to the Cinema Booking Web Application repository! This web application w
 - **Movie Search:** 🔍 Users can search for movies and view detailed information.
 - **Showtime Selection:** 🎬 Users can choose showtimes and book tickets online.
 - **Secure Payment:** 💳 Integrated payment system for secure transactions.
-- **Admin Panel:** 🎟️ Cinema management can manage movies, showtimes, and bookings through the backend system.
+- **Admin Panel:** 🎟️ Cinema management can manage movies through the backend system.
 
 ## TECHNOLOGIES 💻
 
