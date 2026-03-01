@@ -1,48 +1,48 @@
-# CINEMA BOOKING WEB APPLICATION 🎥
+# CINEMA BOOKING WEB APPLICATION 🎬
 
-Welcome to the Cinema Booking Web Application repository! This web application was built as a personal project using ASP.NET Core and SQL Server. It allows for easy online purchase of movie tickets, enabling users to search for movies, showtimes, and make purchases. The backend system is accessible to cinema management for managing movies and showtimes.
+A personal project built with ASP.NET Core and SQL Server that allows users to search for movies, select showtimes, and complete secure online bookings. The application includes a Stripe payment integration and an admin panel for managing the movie catalog.
 
 ## FEATURES ✨
 
-- **Movie Search** 🔍 Users can search for movies and view detailed information.
-- **Showtime Selection** 🎬 Users can choose showtimes and book tickets online.
-- **Secure Payment** 💳 Integrated payment system for secure transactions.
-- **Admin Panel** 🎟️ Cinema management can manage movies through the backend system.
+- **Movie Search** — Browse and search the movie catalog by title and genre.
+- **Showtime Selection** — Choose from available showtimes and screening dates.
+- **Secure Payment** — Complete bookings with integrated Stripe payment processing.
+- **Booking Management** — View and manage reservations from a dedicated user interface.
+- **Admin Panel** — Add, edit, and delete movies, showtimes, and screening dates.
 
 ## TECHNOLOGIES 🚀
 
-- **ASP.NET Core** 🌐 High-performance, cross-platform framework for building web applications.
-- **SQL Server** 🗄️ Relational database management system for storing application data.
-- **HTML/CSS/JavaScript** 🖥️ Frontend technologies for building the user interface.
-- **Bootstrap** 📱 Frontend framework for designing responsive and mobile-first websites.
+- **ASP.NET Core** — Framework for building the web application backend.
+- **SQL Server** — Relational database for storing movies, showtimes, and bookings.
+- **Stripe** — Payment processing integration for secure online transactions.
+- **HTML/CSS/JavaScript** — Frontend markup, styling, and interactivity.
+- **Bootstrap** — Responsive UI component library.
 
 ## DEMO 🎬
 
-Explore the application in action by watching the video demonstration available on [YouTube](https://youtu.be/md3oHAhkOto).
+Watch the demo on [YouTube](https://youtu.be/placeholder).
 
 ## INSTALLATION ⚙️
 
-To run the application locally, follow these steps:
+> This guide assumes you have Visual Studio, the .NET SDK, and SQL Server installed.
 
-1. 📥 Clone the repository to your local machine.
-2. 🗄️ Set up SQL Server and create a new database for the application.
-3. 🛠️ Configure the database connection settings in the application code.
-4. 🔄 Ensure that the required NuGet packages are restored. This should be done automatically by Visual Studio or the .NET CLI based on the dependencies listed in the project's `.csproj` file.
-5. 📝 Navigate to the `appsettings.json` file in the project directory.
-6. 🔑 Locate the `StripeSettings` section and replace the `PublishableKey` and `SecretKey` values with your own Stripe API keys. You can obtain these keys by signing up for a Stripe account and creating a new project.
-7. 📊 Run migrations to create the necessary database schema and seed initial data.
-8. ▶️ Build and run the application using Visual Studio or the .NET CLI.
+1. Clone the repository and open `CineAimane.sln` in Visual Studio.
+2. Open `appsettings.json` and update the following values:
+   - Connection string pointing to your SQL Server instance.
+   - `PublishableKey` and `SecretKey` with your Stripe API keys from the [Stripe Dashboard](https://dashboard.stripe.com/).
+3. Import `CineAimane.sql` into SQL Server to create the schema and load the sample movie data.
+4. Build and run the project from Visual Studio.
 
 ## CONTRIBUTING 🤝
 
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+Contributions are welcome! To contribute:
 
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch (`git checkout -b feature/my-new-feature`).
-3. ✨ Make your changes.
-4. 📝 Commit your changes (`git commit -am 'Add some feature'`).
-5. ⏫ Push to the branch (`git push origin feature/my-new-feature`).
-6. 📬 Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add feature description'`).
+5. Push to the branch (`git push origin feature/my-new-feature`).
+6. Open a Pull Request.
 
 ## LICENSE 📄
 
@@ -50,4 +50,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## CONTACT 📧
 
-For any inquiries or feedback, feel free to reach out to me at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.com).
+For any questions or feedback, reach out at [contact@aimanecouissi.com](mailto:contact@aimanecouissi.com).
